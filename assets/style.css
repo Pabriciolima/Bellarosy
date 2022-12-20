@@ -1,13 +1,42 @@
-.logo{
-height: 400px;
-width: 400px;
-border-radius: 100%;
-box-shadow: 10%;
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background: rgb(255, 196, 234);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+/**** layoult ****/
+
+#cabecalho{
+   background-color: rgb(255, 139, 207);
+   padding: 50px;
+   text-align: center;
+   font-size: 15px;
+}
+#logo{
+padding: 30px;
+
+}
+/**** formatação do menu ****/
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+a:hover{
+color:aqua;
+background: pink;
+
 }
 
-.menu{
-    flex-direction: column-reverse;
-    border: 1px solid gray;
-    width: 150px;
-    height: 150px;
+/**** formatação geral****/
+h1{ color: #474747;
+    font-size: 2.5em;
+}
+.branco{
+color: white;
+
 }
