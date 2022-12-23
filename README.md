@@ -1,7 +1,7 @@
 E-commerce de moda feminina Bella Rosy
 ### em construção ####
 
-####abaixo status atualizado###
+##abaixo status atualizado##
 
 (x) adicionar logo
 (x) adicionar links para outras paginas
