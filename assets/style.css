@@ -36,10 +36,14 @@ background: pink;
 h1{ color: #474747;
     font-size: 2.5em;
 }
+
+
+
 .branco{
 color: white;
 
 }
+
 
 
 /**** formatação postagem****/
@@ -49,11 +53,27 @@ color: white;
    
    }
 .slide img{
-    width: 90%;
-    border-radius: 10%;
-    text-align: center;
 
-}   
+    width: 90%;
+    border-radius: 20px 50px 80px 100px;
+    text-align: center;
+    box-shadow:10px 5px 5px grey;
+ }
+img:hover{
+width: 450px;
+transition:03s;
+}
+#contatos{
+background-color: aqua;
+
+}
+li:hover{
+    width: 450px;
+    transition:03s;
+}
+
+   
+
 
 #rodape{
     background-color: aliceblue;
@@ -61,5 +81,6 @@ color: white;
     padding: 10px;
     text-align: center ;
     font-size: 15px;
+    border: solid 1px;
 
 }
